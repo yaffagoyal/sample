@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+	<body bgcolor="#2E062E" >
+<head>
+  <meta charset="utf-8">
+  <title>Contact us and Feedback</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+			<body>
+        <image src= "logo.png" alt= "logo" width="300" height= "120" class="center"></image> 
+        <style>
+            li{
+              list-style-type: none;
+            }
+            a{
+              text-decoration: none;
+            }
+              nav{
+              width: 100vw; 
+              background-color: #4d315f;
+            }
+            ul{
+              margin: 0;
+              padding: 0;
+            }
+            body{
+              margin: 0; 
+            } 
+            ul{
+              margin: 0;
+              padding: 0;
+              /*this option by default dispose the elements in a row (flex-direction: row)*/
+              display: flex;
+            }
+            li{
+              list-style-type: none; 
+              margin: 0 2vw;
+              /* our font-size will be 3% of the height of the viewport */
+              font-size: 3vh;
+            }
+            a{
+              text-decoration: none;
+              /*below I changed the color*/
+            
+              color: white;
+            
+              /*I added some padding*/
+            
+              padding: 2vw;
+            
+              /*also changed the font family but that's totally irrelevant*/
+            
+              font-family: 'Times New Roman', Times, serif;
+            
+            }
+            
+            a:hover{
+            
+              background-color: #ac64ce;
+            
+            } 
+            </style>
+            
+            </head>
+            
+            <body>
+            
+            <nav>
+            
+              <ul>
+            
+                <li>
+            
+                  <!-- link one -->
+            
+                  <a href="page1.html"> Home </a>|
+            
+                </li>
+            
+                <li>
+            
+                  <!-- link two -->
+            
+                   <a href="page2.html"> Types of Stones </a>|
+            
+                </li>
+            
+                <li>
+            
+                  <!-- link three -->
+            
+                  <a href="page3.html"> Our Products </a>|
+            
+                </li>
+            
+                <li>
+            
+                  <!-- link four -->
+            
+                  <a href="page4.html"> Contact Us </a>
+            
+                </li>
+            
+              </ul>
+            
+            </nav>
+            <body>
+  
+              <div class="contact-title">
+                <center>
+                  <h1><font color="white">Hello</font> </h1>
+                  <h2><font color="grey"> Please fill in the form</font></h2>
+            
+                </div></center>
+  <center>
+    <div id="after_submit"></div>
+    <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+      <div class="row">
+        <label class="required" for="name"><font color="white"><b>Name:</b></font></label><br />
+        <input id="name" class="input" name="name" type="text" value="" size="100" /><br />
+        <span id="name_validation" class="error_message"></span>
+      </div>
+      <div class="row">
+        <label class="required" for="email"> <font color="white"><b>E-mail:</b></font></label><br />
+        <input id="email" class="input" name="email" type="text" value="" size="100" /><br />
+        <span id="email_validation" class="error_message"></span>
+      </div>
+      <div class="row">
+        <label class="required" for="message"><font color="white"><b>Message:</b></font></label><br />
+        <textarea id="message" class="input" name="message" rows="7" cols="100"></textarea><br />
+        <span id="message_validation" class="error_message"></span>
+      </div>
+        
+        <input id="submit_button" type="submit" value="Submit" />
+    </form>
+    </center>
+  <div class="myDiv">
+    <h2><font color= "423d44"><b>Contact us:</b></font></h2>
+    <p><b>Mobile No:</b> +91-855-5900-602<br>
+      <b>E-mail:</b> enchantingcrystals@icloud.com<br>
+      <b>Instagram:</b>@enchantingcrystals<br>
+      
+
+    </p>
+  </div>
+  
+  
+  
+              </body>

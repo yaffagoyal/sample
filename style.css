@@ -1,0 +1,12 @@
+.myDiv {
+  border: 4px outset rgb(140,102,168);
+    background-color:rgb(140,102,168);    
+    text-align: center;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+  }
+  

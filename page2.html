@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+	<body bgcolor="#2E062E" >
+<head>
+  <meta charset="utf-8">
+  <title>Types of Stones</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+			<body>
+        <image src= "logo.png" alt= "logo" width="300" height= "120" class="center"></image> 
+        <style>
+            li{
+              list-style-type: none;
+            }
+            a{
+              text-decoration: none;
+            }
+              nav{
+              width: 100vw; 
+              background-color: #4d315f;
+            }
+            ul{
+              margin: 0;
+              padding: 0;
+            }
+            body{
+              margin: 0; 
+            } 
+            ul{
+              margin: 0;
+              padding: 0;
+              /*this option by default dispose the elements in a row (flex-direction: row)*/
+              display: flex;
+            }
+            li{
+              list-style-type: none; 
+              margin: 0 2vw;
+              /* our font-size will be 3% of the height of the viewport */
+              font-size: 3vh;
+            }
+            a{
+              text-decoration: none;
+              /*below I changed the color*/
+            
+              color: white;
+            
+              /*I added some padding*/
+            
+              padding: 2vw;
+            
+              /*also changed the font family but that's totally irrelevant*/
+            
+              font-family: 'Times New Roman', Times, serif;
+            
+            }
+            
+            a:hover{
+            
+              background-color: #ac64ce;
+            
+            } 
+            </style>
+            
+            </head>
+            
+            <body>
+            
+            <nav>
+            
+              <ul>
+            
+                <li>
+            
+                  <!-- link one -->
+            
+                  <a href="page1.html"> Home </a>|
+            
+                </li>
+            
+                <li>
+            
+                  <!-- link two -->
+            
+                   <a href="page2.html"> Types of Stones </a>|
+            
+                </li>
+            
+                <li>
+            
+                  <!-- link three -->
+            
+                  <a href="page3.html"> Our Products </a>|
+            
+                </li>
+            
+                <li>
+            
+                  <!-- link four -->
+            
+                  <a href="page4.html"> Contact Us </a>
+            
+                </li>
+            
+              </ul>
+            
+            </nav>
+
+        <h3><font color="#848484"><font size="22"><p style="text-align:center;">Different Types of Semi-Precious Stones</p></font></h3>
+        <style type="text/css">  
+          body {  
+              margin: 0;  
+              background:#2E062E;  
+          }  
+          .showSlide {  
+              display: none  
+          }  
+              .showSlide img {  
+                  width: 100%;  
+              }  
+          .slidercontainer {  
+              max-width: 1000px;  
+              position: relative;  
+              margin: auto;  
+          }  
+          .left, .right {  
+              cursor: pointer;  
+              position: absolute;  
+              top: 50%;  
+              width: auto;  
+              padding: 16px;  
+              margin-top: -22px;  
+              color: white;  
+              font-weight: bold;  
+              font-size: 18px;  
+              transition: 0.6s ease;  
+              border-radius: 0 3px 3px 0;  
+          }  
+          .right {  
+              right: 0;  
+              border-radius: 3px 0 0 3px;  
+          }  
+              .left:hover, .right:hover {  
+                  background-color: rgba(115, 115, 115, 0.8);  
+              }  
+          .content {  
+              color: #000000;  
+              font-size: 30px;  
+              padding: 2px 8px;  
+              position: absolute;  
+              top: 5px;  
+              width: 100%;  
+              text-align: left;  
+          }  
+          .active {  
+              background-color: #8a7c7c;  
+          }  
+          /* Fading animation */  
+          .fade {  
+              -webkit-animation-name: fade;  
+              -webkit-animation-duration: 1.5s;  
+              animation-name: fade;  
+              animation-duration: 1.5s;  
+          }  
+          @-webkit-keyframes fade {  
+              from {  
+                  opacity: .4  
+              }  
+              to {  
+                  opacity: 1  
+              }  
+          }  
+    
+          @keyframes fade {  
+              from {  
+                  opacity: .4  
+              }  
+              to {  
+                  opacity: 1  
+              }  
+          }  
+      </style>  
+  </head>  
+  <body>  
+      <div class="slidercontainer">  
+          <div class="showSlide fade">  
+              <img src="slide1.png" />  
+              <div class="content"></div>  
+          </div>  
+          <div class="showSlide fade">  
+              <img src="slide2.png" />  
+              <div class="content"></div>  
+          </div>  
+    
+          <div class="showSlide fade">  
+              <img src="slide3.png" />  
+              <div class="content"></div>  
+          </div>  
+          <div class="showSlide fade">  
+              <img src="slide4.png" />  
+              <div class="content"></div>  
+          </div>  
+          <div class="showSlide fade">  
+            <img src="slide5.png" />  
+            <div class="content"></div>  
+        </div>  
+        <div class="showSlide fade">  
+          <img src="slide6.png" />  
+          <div class="content"></div>  
+      </div>  
+      <div class="showSlide fade">  
+        <img src="slide7.png" />  
+        <div class="content"></div>  
+    </div>  
+    <div class="showSlide fade">  
+      <img src="slide8.png" />  
+      <div class="content"></div>  
+  </div>  
+          <!-- Navigation arrows -->  
+          <a class="left" onclick="nextSlide(-1)">❮</a>  
+          <a class="right" onclick="nextSlide(1)">❯</a>  
+      </div>  
+    
+      <script type="text/javascript">  
+          var slide_index = 1;  
+          displaySlides(slide_index);  
+    
+          function nextSlide(n) {  
+              displaySlides(slide_index += n);  
+          }  
+    
+          function currentSlide(n) {  
+              displaySlides(slide_index = n);  
+          }  
+    
+          function displaySlides(n) {  
+              var i;  
+              var slides = document.getElementsByClassName("showSlide");  
+              if (n > slides.length) { slide_index = 1 }  
+              if (n < 1) { slide_index = slides.length }  
+              for (i = 0; i < slides.length; i++) {  
+                  slides[i].style.display = "none";  
+              }  
+              slides[slide_index - 1].style.display = "block";  
+          }  
+      </script>  
+</body>
